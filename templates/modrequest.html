@@ -1,0 +1,32 @@
+{% extends 'modlayout.html' %}
+
+{% block body %}
+  <div style="margin-left: 250px; margin-top: 150px">
+    <h3>
+      Enter the requested information to search for desired exam.<br>
+
+      Total Number of Exams in the Database:
+      {% for Rexam in Rexams %}
+        {{Rexam[0]}}
+      {% endfor %}
+    </h3>
+  </div>
+  
+  <!-- search for mods -->
+  <div style="margin-left: 250px; margin-top:10px">
+    <form method="POST" action ="/displaymod" enctype=multipart/form-data>
+      Course Number:<br>
+      <input type="text" name="RCourseNum"><br>
+      Subject:<br>
+      <input type="text" name="RSubject"><br>
+      Exam Title:<br>
+      <input type="text" name="RExamTitle"><br>
+      Semester:<br>
+      <input type="text" name="RSemester"><br>
+      <p>
+        
+      </p>
+      <input type=submit value=Submit>
+    </form>
+  </div>
+  {% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'modlayout.html' %}
+
+{% block body %}
+  <div style="margin-left: 250px">
+    <h3>
+      Hello {{name}} <br>
+      Please fill in the following information to upload an Exam.
+    </h3>
+  </div>
+
+  <div style="margin-left: 250px; margin-top: 10px">
+  <form method="POST" action ="/mupload" enctype=multipart/form-data>
+    Course Number:<br>
+    <input type="text" name="CourseNum"><br>
+    Subject:<br>
+    <input type="text" name="Subject"><br>
+    Exam Title:<br>
+    <input type="text" name="ExamTitle"><br>
+    Semester:<br>
+    <input type="text" name="Semester"><br>
+    AccountID:<br>
+    <input type="text" name="ACCID"><br>
+    <p>
+
+    </p>
+    <input type=file name=inputFile>
+    <p>
+
+    </p>
+    <input type=submit value=Submit>
+  </form>
+  </div>
+{% endblock %}
