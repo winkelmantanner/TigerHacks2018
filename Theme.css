@@ -1,0 +1,52 @@
+.navbar-brand
+{
+    font-family: 'Arial' !important;
+    font-size: 34px;
+}
+
+.jumbotron
+{
+	background-color: #ffffff;
+}
+
+#LoginDisplay
+{
+	font-weight: bold;
+}
+
+#ArtistHomeAlbums
+{
+	background-color: #eeeeee;
+}
+
+#AlbumImage
+{
+	width: 100 ;
+	height: 100 ;
+}
+
+#PlaylistImage
+{
+	width: 100 ;
+	height: 100 ;
+}
+
+.ArtistAlbum
+{
+	margin: 30px ;
+}
+
+#AlbumsContainer
+{
+	background-color: #ffffff ;
+}
+
+#SongName
+{
+	float: left ;
+}
+
+#mynav
+{
+    font-family: 'Arial';
+}
