@@ -9,10 +9,14 @@
         console.log("asdf2");
         object = JSON.parse({{all_articles | tojson | safe}});
         console.log ( object );
-        html = "";
+        html = "<br><br><br><br>";
+        html += "<div>Average agreement score for this set of articles: ";
+        let sum = object.articles.reduce(function(agg, element){return agg + element.agreement_score;}, 0);
+        html += String(sum / object.articles.length);
+        html += "</div>";
         object.articles.forEach(function(element) {
             console.log(element);
-            adder = "<br><br><br><br><br><br><div height='80' style='height: 80px;'>";
+            adder = "<br><br><br><br><div height='80' style='height: 80px;'>";
             html += "<a href='" ;
             html += element.url;
             html += "'>";
