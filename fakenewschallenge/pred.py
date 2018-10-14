@@ -14,16 +14,14 @@
 
 
 # Import relevant packages and modules
-from util import *
+from .util import *
 import random
 import tensorflow as tf
 
+def run():
+    do_it('load')
 
-
-def main():
-    # Prompt for mode
-    mode = input('mode (load / train)? ')
-
+def do_it(mode):
     # Set file names
     file_train_instances = "train_stances.csv"
     file_train_bodies = "train_bodies.csv"
@@ -120,9 +118,16 @@ def main():
             test_feed_dict = {features_pl: test_set, keep_prob_pl: 1.0}
             test_pred = sess.run(predict, feed_dict=test_feed_dict)
 
+
+    print("IT ACTUALLY GETS HERE")
     # Save predictions
     save_predictions(test_pred, file_predictions)
 
+
+def main():
+    # Prompt for mode
+    mode = input('mode (load / train)? ')
+    do_it(mode)
 
 if __name__=='__main__':
     main()

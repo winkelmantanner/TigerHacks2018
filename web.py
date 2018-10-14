@@ -1,6 +1,7 @@
 import os
 import random
 import json
+import pred
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, send_file
 from werkzeug.utils import secure_filename
 from os import path
@@ -30,6 +31,8 @@ def home():
 
     # /v2/sources
     sources = newsapi.get_sources()
+
+    pred.run()
     
     #print(sources)
     print(type(all_articles))
@@ -64,6 +67,8 @@ def display_exam():
     # /v2/everything
     all_articles = newsapi.get_everything(q=str(Subject),
     language='en')
+
+
 
     # /v2/sources
     sources = newsapi.get_sources()
