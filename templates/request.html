@@ -3,31 +3,20 @@
 {% block body %}
   <div style="float: right; margin-right: 200px">
     <h3>
-      Enter the requested information to search for desired exam.<br>
+      Enter the requested information to search for desired type of news<br>
 
-      Total Number of Exams in the Database:
-      {% for Rexam in Rexams %}
-        {{Rexam[0]}}
-      {% endfor %}
     </h3>
   </div>
 
   <!-- basic user search -->
   <div style="margin-left: 250px; margin-top: 300px">
     <form method="POST" action ="/display" enctype=multipart/form-data>
-      Course Number:<br>
-      <input type="text" name="RCourseNum"><br>
       Subject:<br>
-      <input type="text" name="RSubject"><br>
-      Exam Title:<br>
-      <input type="text" name="RExamTitle"><br>
-      Semester:<br>
-      <input type="text" name="RSemester"><br>
+      <input type="text" name="Subject"><br>
       <P>
       <P>
-        
-      </P>
       <input type=submit value=Submit>
     </form>
   </div>
 {% endblock %}
+s
