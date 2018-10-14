@@ -19,8 +19,21 @@
         </div>
     </div>
     
+    <script>console.log("asdf");</script>
+    
     <br><br>
-    <p>{{ sources }}</p>
+    <script>
+        console.log("asdf2");
+        object = JSON.parse({{all_articles | tojson | safe}});//.replace('\'', '\"');
+        console.log(object);
+        object = JSON.parse(object); //, function(key, value){
+        object.test();
+        console.log ( object );
+        object.articles.forEach(function(element) {
+            console.log(element);
+        });
+    </script>
+    
     <p>{{ all_articles }}</p>
 
 {% endblock %}

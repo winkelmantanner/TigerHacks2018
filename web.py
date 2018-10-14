@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import random
+import json
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash, send_file
 from werkzeug.utils import secure_filename
 from os import path
@@ -32,12 +33,12 @@ def home():
     # /v2/sources
     sources = newsapi.get_sources()
     
-    print(sources)
-    print(all_articles)
-    print(top_headlines)
-    print(newsapi)
+    #print(sources)
+    print(type(all_articles))
+    #print(top_headlines)
+    #print(newsapi)
     
-    return render_template('home.html' , sources=sources , all_articles=all_articles , top_headlines=top_headlines , newsapi=newsapi)
+    return render_template('home.html' , sources=sources , all_articles=json.dumps(all_articles) , top_headlines=top_headlines , newsapi=newsapi)
 
 @app.route('/about')
 def about():
