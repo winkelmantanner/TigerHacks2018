@@ -18,3 +18,9 @@ The first request should take the app a long time to respond to because it has t
 But after that it should be fast enough.
 
 ![What it looks like](https://raw.githubusercontent.com/winkelmantanner/TigerHacks2018/tanner/images/Screen%20Shot%202018-10-14%20at%209.10.24%20AM.png?raw=true)
+
+
+<h4>Credits</h4>
+I would like to credit Alan Truong, Emanuel Huffman, Lucas, and myself as the developers of this application.
+I would also like to credit Benjamin Riedel of UCL Machine Reading who made the ai behind the agreement scores.  We copied from his GitHub.
+Note that artifacts from Alan Truong's databases project (an exam archive) may be found in this code.
