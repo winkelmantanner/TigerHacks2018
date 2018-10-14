@@ -12,7 +12,7 @@
         html = "<br><br><br><br>";
         html += "<div>Average agreement score for this set of articles: ";
         let sum = object.articles.reduce(function(agg, element){return agg + element.agreement_score;}, 0);
-        html += String(sum / object.articles.length);
+        html += (sum / object.articles.length).toFixed(4);
         html += "</div>";
         object.articles.forEach(function(element) {
             console.log(element);
@@ -34,7 +34,7 @@
             html += element.description;
             html += "</p></a>";
             html += "<strong title=\"A number from -1 to 1 indicating whether this article is consistent with the other articles.\">Agreement score: ";
-            html += element.agreement_score;
+            html += element.agreement_score.toFixed(4);
             html += "</strong>";
             html += "</div>";
         });
