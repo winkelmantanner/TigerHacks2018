@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div style="float: right; margin-right: 200px">
+    <h3>
+      Enter text to test against articles with similar keywords<br>
+
+    </h3>
+  </div>
+
+  <!-- basic user search -->
+  <div style="margin-left: 250px; margin-top: 300px">
+    <form method="POST" action ="/test_text" enctype=multipart/form-data>
+      Paste content here:<br>
+      <input type="text" name="content"><br>
+      <P>
+      <P>
+      <input type=submit value=Submit>
+    </form>
+  </div>
+{% endblock %}
+s

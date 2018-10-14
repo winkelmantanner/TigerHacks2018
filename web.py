@@ -87,6 +87,12 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route('/test_text', methods = ['POST', 'GET'])
+def test_text():
+    content = request.form['content']
+    print(content)
+    return render_template('test_text.html')
+
 # these two request functions let users input information about exams 
 @app.route('/request', methods = ['POST', 'GET'])
 def request_exam():
