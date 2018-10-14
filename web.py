@@ -30,7 +30,7 @@ def evaluate_articles_against_each_other(all_articles):
             body_file.write(str(index) + ",\"" + str(content_article['content']).replace('\"','') + '\"\n')
         stance_file.write('Headline,Body ID\n')
         for stance_article_index, content_article_index in generate_index_pairs(len(all_articles['articles'])):
-            stance_file.write('\"' + str(all_articles['articles'][stance_article_index]['title']).replace('\"','') + "\"," + str(content_article_index) + '\n')
+            stance_file.write('\"' + str(all_articles['articles'][stance_article_index]['content']).replace('\"','') + "\"," + str(content_article_index) + '\n')
     result = pred.run()
     point_count = [0 for k in range(len(all_articles['articles']))]
     appearance_count = [0 for k in range(len(all_articles['articles']))]
