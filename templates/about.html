@@ -3,7 +3,10 @@
 {% block body %}
  <div style="margin-left: 150px; margin-right: 150px; margin-top: 300px"> 
   <h2>
-   This website is a new browsing website that was made for TigerHacks 2018. We get our sources of news from the NewsApi. Then we have a bot that calculate the % of how trust worthy each article is.
-   The user is able to search for any type news as they want in our search function. 
+   This website is a new browsing website that was made for TigerHacks 2018. We get our sources of news from the NewsApi. Then we have a bot that calculate how much each article agrees with the others.
+   The user is able to search for any type news as they want in our search function.
+   The "agreement scores" are computed by comparing the headline of each article to the body of each other article.
+   The higher the agreement score, the more the article matches the information in the other articles.
+   The agreement score can be negative.
  </div>
 {% endblock %}
