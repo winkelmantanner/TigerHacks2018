@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10125a33-cde8-4fca-8a87-62741e8558e1" name="Default" comment="">
+    <list default="true" id="10125a33-cde8-4fca-8a87-62741e8558e1" name="Default" comment="Does not work yet.">
+      <change afterPath="$PROJECT_DIR$/original_train_stances.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakenewschallenge/pred.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakenewschallenge/pred.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/images/uclmr_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/images/uclmr_system.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/model/model.checkpoint.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/model/model.checkpoint.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/model/model.checkpoint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/pred.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/predictions_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/test_bodies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/test_stances_unlabeled.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/train_bodies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/train_stances.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fakenewschallenge/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/web.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,39 +31,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_bodies.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakenewschallenge/test_bodies.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pred.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakenewschallenge/pred.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+            <state relative-caret-position="919">
+              <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
               <folding>
-                <element signature="e#620#638#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="predictions_test.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/predictions_test.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-304">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="original_test_bodies.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original_test_bodies.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_bodies.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_bodies.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakenewschallenge/util.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-324">
+              <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -55,6 +93,30 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>app</find>
+      <find>save_predictions</find>
+      <find>pipeline_test</find>
+      <find>test_set</find>
+      <find>load_modelload_model</find>
+      <find>restore</find>
+      <find>4149</find>
+      <find>train_set</find>
+      <find>train_stances</find>
+      <find>bow_vectorizer</find>
+      <find>self</find>
+      <find>file_predictions</find>
+      <find>run(</find>
+      <find>newsapi.get</find>
+      <find>n_train</find>
+      <find>FNCData</find>
+      <find>fncda</find>
+      <find>raw_test</find>
+      <find>pipeline</find>
+      <find>body_id</find>
+      <find>fncd</find>
+      <find>zxcv</find>
+      <find>headlin</find>
+      <find>Headl</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,7 +126,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fakenewschallenge/pred.py" />
+        <option value="$PROJECT_DIR$/original_train_stances.csv" />
+        <option value="$PROJECT_DIR$/train_stances.csv" />
+        <option value="$PROJECT_DIR$/original_test_stances.csv" />
+        <option value="$PROJECT_DIR$/original_test_bodies.csv" />
+        <option value="$PROJECT_DIR$/pred.py" />
         <option value="$PROJECT_DIR$/web.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
       </list>
     </option>
   </component>
@@ -98,7 +166,7 @@
             <path>
               <item name="TigerHack2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="TigerHack2018" type="462c0819:PsiDirectoryNode" />
-              <item name="fakenewschallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,6 +180,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,12 +216,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539493122452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Does not work yet.">
+      <created>1539494863875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539494863875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="756" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -208,13 +287,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add fakenewschallenge" />
     <MESSAGE value="put code in main() function" />
-    <option name="LAST_COMMIT_MESSAGE" value="put code in main() function" />
+    <MESSAGE value="Does not work yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Does not work yet." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fakenewschallenge/test_bodies.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -231,10 +316,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/train_stances.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="49963" column="13" selection-start-line="49963" selection-start-column="13" selection-end-line="49963" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pred.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="73" column="41" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="41" />
+          <folding>
+            <element signature="e#620#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_bodies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original_test_stances.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original_test_bodies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_stances_unlabeled.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_bodies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="919">
+          <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original_train_stances.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="49962" column="86" selection-start-line="49962" selection-start-column="86" selection-end-line="49962" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions_test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>

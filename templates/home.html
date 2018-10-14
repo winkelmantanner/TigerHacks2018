@@ -3,7 +3,6 @@
 {% block body %}
     
     <div class="container" id="content"></div>
-    
     <script>
         console.log("asdf");
     
@@ -13,7 +12,7 @@
         html = "";
         object.articles.forEach(function(element) {
             console.log(element);
-            adder = "<br><br><br><br><div height='80' style='height: 80px;'>";
+            adder = "<br><br><br><br><br><br><div height='80' style='height: 80px;'>";
             html += "<a href='" ;
             html += element.url;
             html += "'>";
@@ -21,7 +20,7 @@
             adder += element.urlToImage;
             adder += "\'></img>";
             html += adder;
-            html += "</a>"
+            html += "</a>";
             
             html += "<a href='" ;
             html += element.url;
@@ -29,7 +28,11 @@
             html += "<h3>" + element.title + "</h3>";
             html += "<p>";
             html += element.description;
-            html += "</p></a></div>";
+            html += "</p></a>";
+            html += "<strong title=\"A number from -1 to 1 indicating whether this article is consistent with the other articles.\">Agreement score: ";
+            html += element.agreement_score;
+            html += "</strong>";
+            html += "</div>";
         });
         document.getElementById("content").innerHTML = html;
         console.log("zxcv");
